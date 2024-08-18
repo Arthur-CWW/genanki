@@ -12,6 +12,10 @@ dependencies = [
     "chevron",
     "frozendict",
     "pyyaml",
+    "pytest>=8.3.2",
+    "anki>=24.6.3",
+    "aqt>=24.6.3",
+    "PyQt6>=6.7.1",
 ]
 requires-python = ">=3.8"
 readme = "README.md"
