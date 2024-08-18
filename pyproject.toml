@@ -1,0 +1,28 @@
+[project]
+name = "genanki"
+version = "0.13.1"
+description = "Generate Anki decks programmatically"
+authors = [
+    { name = "Arthur", email = "arthur@chunai.dev" },
+    { name = "Kerrick Staley", email = "k@kerrickstaley.com" },
+]
+dependencies = [
+    "setuptools>=72.2.0",
+    "cached-property",
+    "chevron",
+    "frozendict",
+    "pyyaml",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = { text = "MIT" }
+keywords = ["anki", "flashcards", "memorization"]
+[project.urls]
+Homepage = "http://github.com/kerrickstaley/genanki"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
